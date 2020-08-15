@@ -50,8 +50,8 @@ public class DataUnitConverter {
 		double input = 2;
 		double output = dc.convert(input);
 		
-		String result = String.format("%.2f %s", input, inputUnit);
-		String result2 = String.format("%.2f %s", output, outputUnit);
+		String result = String.format("%.2f %s", input, inputUnit.getSymbol());
+		String result2 = String.format("%.2f %s", output, outputUnit.getSymbol());
 
 		System.out.println(result);
 		System.out.println(result2);
