@@ -19,9 +19,9 @@ public enum DataUnit {
 	YB("YB", "요타바이트", pow(10, 24)),
 	YIB("YiB", "요비바이트", pow(2, 80));
 
-	final private String symbol;
-	final private String name;
-	final private double value;
+	private final String symbol;
+	private final String name;
+	private final double value;
 	
 	private static double pow(double a, double b) {
 		return Math.pow(a, b);
